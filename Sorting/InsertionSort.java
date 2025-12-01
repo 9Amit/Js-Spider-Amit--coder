@@ -2,8 +2,7 @@ package Sorting;
 
 public class InsertionSort // Java program for implementation of Insertion Sort
  {
-
-    void sort(int arr[])
+     void sort(int arr[])
     {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
@@ -20,7 +19,6 @@ public class InsertionSort // Java program for implementation of Insertion Sort
             arr[j + 1] = key;
         }
     }
-
     /* A utility function to print array of size n */
     static void printArray(int arr[])
     {
@@ -30,7 +28,6 @@ public class InsertionSort // Java program for implementation of Insertion Sort
 
         System.out.println();
     }
-
     // Driver method
     public static void main(String args[])
     {
